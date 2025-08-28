@@ -1,0 +1,63 @@
+header {
+  background-color: #fefefe;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+#logo1 {
+  width: 50px;
+}
+#login {
+  width: 100px;
+  height: 50px;
+  border: 2px transparent;
+  border-radius: 50px;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  background: blue;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  text-align: center;
+}
+
+.introduction {
+  background-color: #1d5bd6;
+  display: box;
+  align-items: center;
+  text-align: center;
+}
+.titulo-branco {
+  color: white;
+  margin: 0 auto;
+}
+.titulo-amarelo {
+  color: #ffde59;
+  margin: 0 auto;
+}
+.subtitulo-branco {
+  color: white;
+  margin-bottom: 10px;
+}
+.Cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.cards{
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: lightgray;
+    text-align: center;
+
+}
